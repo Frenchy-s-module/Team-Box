@@ -1,0 +1,77 @@
+<div class="team-box-inventory">
+    <header class="inventory-header">
+        <h1>{{localize "TEAMBOX.Title"}}</h1>
+        {{#if isGM}}
+        <button class="delete-all" title="{{localize 'TEAMBOX.Controls.DeleteAll'}}">
+            <i class="fas fa-trash"></i>
+        </button>
+        {{/if}}
+    </header>
+
+    <div class="inventory-content">
+        {{#if isGM}}
+        <div class="drop-zone">
+            <i class="fas fa-download"></i>
+            <p>{{localize "TEAMBOX.DropZone.Text"}}</p>
+        </div>
+        {{/if}}
+
+        <div class="filter-container">
+            <div class="filters">
+                <button class="filter-btn {{#if (eq currentFilter 'all')}}active{{/if}}" data-filter="all">
+                    {{localize "TEAMBOX.Controls.Filters.All"}}
+                </button>
+                {{#each uniqueTypes as |type|}}
+                {{#if (lookup @root (concat "has" (capitalize type)))}}
+                <button class="filter-btn {{#if (eq @root.currentFilter (lowercase type))}}active{{/if}}" data-filter="{{lowercase type}}">
+                    {{localize (concat "TEAMBOX.Controls.Filters." (capitalize type))}}
+                </button>
+                {{/if}}
+                {{/each}}
+            </div>
+        </div>
+
+        <div class="items-grid">
+            {{#each inventory}}
+            <div class="item" data-item-id="{{this.uuid}}" data-item-type="{{this.type}}">
+                <div class="item-image-container">
+                    <div class="item-image">
+                        <img src="{{this.img}}" alt="{{this.name}}">
+                        <div class="item-quantity-banner">
+                            {{#if @root.isGM}}
+                            <button class="quantity-btn decrease-quantity">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <span class="item-quantity">{{this.quantity}}</span>
+                            <button class="quantity-btn increase-quantity">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                            {{else}}
+                            <span class="item-quantity-readonly">{{this.quantity}}</span>
+                            {{/if}}
+                        </div>
+                        <div class="item-name">{{this.name}}</div>
+                    </div>
+                </div>
+                <div class="item-controls">
+                    {{#if @root.isGM}}
+                    <button class="edit" title="{{localize 'TEAMBOX.Controls.Edit'}}">
+                        <i class="fas fa-edit"></i>
+                    </button>
+                    <button class="give" title="{{localize 'TEAMBOX.Controls.Give'}}">
+                        <i class="fas fa-hand-holding"></i>
+                    </button>
+                    <button class="delete" title="{{localize 'TEAMBOX.Controls.Delete'}}">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                    {{else}}
+                    <button class="take" title="{{localize 'TEAMBOX.Controls.Take'}}">
+                        <i class="fas fa-hand-paper"></i>
+                    </button>
+                    {{/if}}
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>

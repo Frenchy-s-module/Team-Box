@@ -1,0 +1,109 @@
+{
+    "TEAMBOX": {
+        "Title": "Inventaire d'équipe",
+        "Inventory": {
+            "Title": "Inventaire d'équipe",
+            "Empty": "Aucun objet dans l'inventaire"
+        },
+        "Settings": {
+            "Theme": {
+                "Name": "Thème",
+                "Hint": "Sélectionnez le thème visuel pour l'inventaire"
+            }
+        },
+        "Controls": {
+            "Sort": {
+                "Name": "Trier par Nom",
+                "Type": "Trier par Type",
+                "Quantity": "Trier par Quantité"
+            },
+            "Edit": "Modifier",
+            "Delete": "Supprimer",
+            "DeleteAll": "Supprimer tout",
+            "Give": "Donner",
+            "Take": "Prendre",
+            "Filters": {
+                "All": "Tout",
+                "Weapon": "Armes",
+                "Armor": "Armures",
+                "Item": "Objets",
+                "Equipment": "Équipement",
+                "Consumables": "Consommables",
+                "Tools": "Outils",
+                "Spells": "Sorts",
+                "Features": "Pouvoirs",
+                "Spacecraftmods": "Modules de vaisseau",
+                "VehicleWeapons": "Armes de Véhicules",
+                "SpacecraftWeapons": "Armes de Vaisseau",
+                "Currency": "Monnaie",
+                "Containers": "Conteneurs",
+                "Loot": "Butin",
+                "Cybernetics": "Cybernétique",
+                "Modifications": "Modifications",
+                "Drugs": "Médicaments",
+                "Magic": "Objets Magiques",
+                "Tech": "Technologie"
+            },
+            "Confirm": "Confirmer",
+            "Cancel": "Annuler"
+        },
+        "DropZone": {
+            "Text": "Déposez des objets ici"
+        },
+        "Dialogs": {
+            "Edit": {
+                "Title": "Modifier l'Objet",
+                "Quantity": "Quantité",
+                "Confirm": "Mettre à jour",
+                "Cancel": "Annuler"
+            },
+            "Delete": {
+                "Title": "Supprimer l'Objet",
+                "Content": "Êtes-vous sûr de vouloir supprimer cet objet ?",
+                "Confirm": "Supprimer",
+                "Cancel": "Annuler"
+            },
+            "DeleteAll": {
+                "Title": "Supprimer tout l'inventaire",
+                "Content": "Êtes-vous sûr de vouloir supprimer tous les objets de l'inventaire d'équipe ? Cette action est irréversible."
+            },
+            "Give": {
+                "Title": "Donner l'Objet",
+                "SelectPlayer": "Sélectionner un Joueur",
+                "Token": "Token",
+                "Quantity": "Quantité"
+            },
+            "TakeRequest": {
+                "Title": "Demande de Prise d'Objet",
+                "Content": "{player} demande à prendre {item}",
+                "Confirm": "Autoriser",
+                "Cancel": "Refuser"
+            }
+        },
+        "Notifications": {
+            "ItemAdded": "Objet ajouté à l'inventaire",
+            "ItemUpdated": "Objet mis à jour",
+            "ItemDeleted": "Objet supprimé",
+            "AllItemsDeleted": "Tous les objets ont été supprimés de l'inventaire d'équipe",
+            "ItemGiven": "Objet donné à {target}",
+            "ItemReceived": "Reçu {item} de {source}",
+            "ItemTaken": "Vous avez pris 1 {name}",
+            "ItemRemoved": "Objet supprimé de l'inventaire d'équipe",
+            "QuantityUpdated": "Quantité de {item} mise à jour à {quantity}",
+            "ItemSent": "{item} envoyé à {recipient}",
+            "ItemRequested": "Demande d'objet envoyée au MJ",
+            "ItemRequestAccepted": "Demande acceptée pour {item}",
+            "ItemRequestDenied": "Demande refusée pour {item}"
+        },
+        "Errors": {
+            "NoTokens": "Aucun token sur la scène",
+            "InvalidItem": "Objet invalide",
+            "NoPermission": "Vous n'avez pas la permission de faire cela",
+            "TargetNotFound": "Cible non trouvée",
+            "AddFailed": "Échec de l'ajout de l'objet",
+            "UpdateFailed": "Échec de la mise à jour de l'objet",
+            "DeleteFailed": "Échec de la suppression de l'objet",
+            "InvalidQuantity": "Quantité invalide"
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "TEAMBOX": {
+        "Title": "Team Box",
+        "Inventory": {
+            "Title": "Team Inventory",
+            "Empty": "No items in inventory"
+        },
+        "Settings": {
+            "Theme": {
+                "Name": "Theme",
+                "Hint": "Choose the visual theme for the team inventory"
+            }
+        },
+        "Controls": {
+            "Sort": {
+                "Name": "Sort by Name",
+                "Type": "Sort by Type",
+                "Quantity": "Sort by Quantity"
+            },
+            "Edit": "Edit",
+            "Delete": "Delete",
+            "Give": "Give",
+            "Take": "Take Item",
+            "Filter": {
+                "All": "All",
+                "Weapons": "Weapons",
+                "Armor": "Armor",
+                "Equipment": "Equipment",
+                "Consumables": "Consumables",
+                "Tools": "Tools"
+            }
+        },
+        "DropZone": {
+            "Text": "Drag and drop items here"
+        },
+        "Dialogs": {
+            "Edit": {
+                "Title": "Edit Item",
+                "Quantity": "Quantity",
+                "Confirm": "Update",
+                "Cancel": "Cancel"
+            },
+            "Delete": {
+                "Title": "Delete Item",
+                "Content": "Are you sure you want to delete this item?",
+                "Confirm": "Delete",
+                "Cancel": "Cancel"
+            },
+            "Give": {
+                "Title": "Give Item",
+                "SelectPlayer": "Select Player"
+            }
+        },
+        "Notifications": {
+            "ItemAdded": "Item added to inventory",
+            "ItemRemoved": "Item removed from team inventory",
+            "ItemUpdated": "Item updated",
+            "ItemTaken": "You took 1 {name}",
+            "ItemDeleted": "Item deleted",
+            "ItemGiven": "Item given to {target}",
+            "ItemReceived": "Received {item} from {source}"
+        },
+        "Errors": {
+            "InvalidItem": "Invalid item",
+            "NoPermission": "You don't have permission to do this",
+            "TargetNotFound": "Target not found",
+            "AddFailed": "Failed to add item",
+            "UpdateFailed": "Failed to update item",
+            "DeleteFailed": "Failed to delete item"
+        }
+    }
+}
