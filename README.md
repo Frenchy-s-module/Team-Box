@@ -39,95 +39,249 @@
 
 ## <a name="english"></a>🇺🇸 English
 
-A Foundry VTT module that adds a shared inventory system for your team.
-
 ### Features
-
-- **Shared Inventory**: A centralized inventory accessible to all players
-- **Item Management**: 
-  - GM can add, edit, and remove items
-  - Players can request items from the inventory
-  - GM can give items to specific players
-  - Quantity tracking for stackable items
-- **Dynamic Filtering**: 
-  - Automatic filter creation based on item types
-  - Easy sorting and filtering of inventory items
-- **Drag & Drop**: 
-  - GM can easily add items by dragging them into the inventory
-- **Theme Support**: 
-  - Multiple themes available including Alien RPG theme
-  - Customizable appearance
+- Real-time synchronization
+- Shared inventory management
+- Customizable themes
+- Drag and drop interface
+- Advanced sorting and filtering
+- Player permissions system
 
 ### Installation
-
-1. In Foundry VTT, go to the "Add-on Modules" tab
-2. Click "Install Module"
-3. Paste the following URL: https://github.com/Frenchy-s-module/Team-Box/releases/latest/download/module.json
-4. Click "Install"
-
-### Usage
-
-1. Click the inventory button in the token controls
-2. GM can drag items into the inventory
-3. Players can request items using the "Take" button
-4. GM can approve or deny item requests
-5. Use filters to easily find specific item types
-
-### Requirements
-
-- Foundry VTT v10 or higher
-
-## <a name="français"></a>🇫🇷 Français
-
-Un module Foundry VTT qui ajoute un système d'inventaire partagé pour votre équipe.
-
-### Fonctionnalités
-
-- **Inventaire Partagé**: Un inventaire centralisé accessible à tous les joueurs
-- **Gestion des Objets**: 
-  - Le MJ peut ajouter, modifier et supprimer des objets
-  - Les joueurs peuvent demander des objets de l'inventaire
-  - Le MJ peut donner des objets à des joueurs spécifiques
-  - Suivi des quantités pour les objets empilables
-- **Filtrage Dynamique**: 
-  - Création automatique des filtres basée sur les types d'objets
-  - Tri et filtrage facile des objets de l'inventaire
-- **Glisser-Déposer**: 
-  - Le MJ peut facilement ajouter des objets en les faisant glisser dans l'inventaire
-- **Support des Thèmes**: 
-  - Plusieurs thèmes disponibles dont le thème Alien RPG
-  - Apparence personnalisable
-
-### Installation
-
-1. Dans Foundry VTT, allez dans l'onglet "Modules complémentaires"
-2. Cliquez sur "Installer un Module"
-3. Collez l'URL suivante : https://github.com/Frenchy-s-module/Team-Box/releases/latest/download/module.json
-4. Cliquez sur "Installer"
-
-### Utilisation
-
-1. Cliquez sur le bouton d'inventaire dans les contrôles de token
-2. Le MJ peut faire glisser des objets dans l'inventaire
-3. Les joueurs peuvent demander des objets avec le bouton "Prendre"
-4. Le MJ peut approuver ou refuser les demandes d'objets
-5. Utilisez les filtres pour trouver facilement des types d'objets spécifiques
-
-### Prérequis
-
-- Foundry VTT v10 ou supérieur 
-
-## 🛠️ Installation
-
 1. Copy the module installation URL
 2. Open Foundry VTT and navigate to the Add-on Modules tab
 3. Click "Install Module" and paste the URL
 4. Click "Install" and wait for completion
 5. Enable the module in your world's Module Settings
 
+### Requirements
+- Foundry VTT v10 or higher
+
+---
+
+## <a name="français"></a>🇫🇷 Français
+
+### Fonctionnalités
+- Synchronisation en temps réel
+- Gestion d'inventaire partagée
+- Thèmes personnalisables
+- Interface glisser-déposer
+- Tri et filtrage avancés
+- Système de permissions des joueurs
+
+### Installation
+1. Copiez l'URL d'installation du module
+2. Ouvrez Foundry VTT et accédez à l'onglet Modules complémentaires
+3. Cliquez sur "Installer le module" et collez l'URL
+4. Cliquez sur "Installer" et attendez la fin
+5. Activez le module dans les paramètres de votre monde
+
+### Prérequis
+- Foundry VTT v10 ou supérieur
+
+---
+
+## <a name="deutsch"></a>🇩🇪 Deutsch
+
+### Funktionen
+- Echtzeit-Synchronisation
+- Gemeinsame Inventarverwaltung
+- Anpassbare Themes
+- Drag & Drop-Oberfläche
+- Erweiterte Sortierung und Filterung
+- Spielerberechtigungssystem
+
+### Installation
+1. Kopieren Sie die Modul-Installations-URL
+2. Öffnen Sie Foundry VTT und navigieren Sie zum Reiter Add-on Module
+3. Klicken Sie auf "Modul installieren" und fügen Sie die URL ein
+4. Klicken Sie auf "Installieren" und warten Sie auf den Abschluss
+5. Aktivieren Sie das Modul in den Moduleinstellungen Ihrer Welt
+
+### Voraussetzungen
+- Foundry VTT v10 oder höher
+
+---
+
+## <a name="español"></a>🇪🇸 Español
+
+### Características
+- Sincronización en tiempo real
+- Gestión de inventario compartido
+- Temas personalizables
+- Interfaz de arrastrar y soltar
+- Clasificación y filtrado avanzado
+- Sistema de permisos de jugadores
+
+### Instalación
+1. Copie la URL de instalación del módulo
+2. Abra Foundry VTT y navegue a la pestaña de Módulos adicionales
+3. Haga clic en "Instalar módulo" y pegue la URL
+4. Haga clic en "Instalar" y espere a que se complete
+5. Active el módulo en la configuración de su mundo
+
+### Requisitos
+- Foundry VTT v10 o superior
+
+---
+
+## <a name="italiano"></a>🇮🇹 Italiano
+
+### Funzionalità
+- Sincronizzazione in tempo reale
+- Gestione dell'inventario condiviso
+- Temi personalizzabili
+- Interfaccia drag and drop
+- Ordinamento e filtro avanzati
+- Sistema di permessi dei giocatori
+
+### Installazione
+1. Copia l'URL di installazione del modulo
+2. Apri Foundry VTT e vai alla scheda Moduli aggiuntivi
+3. Clicca su "Installa modulo" e incolla l'URL
+4. Clicca su "Installa" e attendi il completamento
+5. Attiva il modulo nelle impostazioni del tuo mondo
+
+### Requisiti
+- Foundry VTT v10 o superiore
+
+---
+
+## <a name="norsk"></a>🇳🇴 Norsk
+
+### Funksjoner
+- Sanntidssynkronisering
+- Delt inventarstyring
+- Tilpassbare temaer
+- Dra og slipp-grensesnitt
+- Avansert sortering og filtrering
+- Spillertillatelsessystem
+
+### Installasjon
+1. Kopier modulens installasjons-URL
+2. Åpne Foundry VTT og naviger til Tilleggsmoduler-fanen
+3. Klikk på "Installer modul" og lim inn URL-en
+4. Klikk på "Installer" og vent på fullføring
+5. Aktiver modulen i verdensinnstillingene
+
+### Krav
+- Foundry VTT v10 eller høyere
+
+---
+
+## <a name="dansk"></a>🇩🇰 Dansk
+
+### Funktioner
+- Realtidssynkronisering
+- Delt inventarstyring
+- Tilpasselige temaer
+- Træk og slip-grænseflade
+- Avanceret sortering og filtrering
+- Spillertilladelsessystem
+
+### Installation
+1. Kopiér modulets installations-URL
+2. Åbn Foundry VTT og navigér til fanen Tilføjelsesmoduler
+3. Klik på "Installér modul" og indsæt URL'en
+4. Klik på "Installér" og vent på færdiggørelse
+5. Aktivér modulet i dine verdensindstillinger
+
+### Krav
+- Foundry VTT v10 eller højere
+
+---
+
+## <a name="svenska"></a>🇸🇪 Svenska
+
+### Funktioner
+- Realtidssynkronisering
+- Delad inventariehantering
+- Anpassningsbara teman
+- Dra och släpp-gränssnitt
+- Avancerad sortering och filtrering
+- Spelarrättighetssystem
+
+### Installation
+1. Kopiera modulens installations-URL
+2. Öppna Foundry VTT och navigera till fliken Tilläggsmoduler
+3. Klicka på "Installera modul" och klistra in URL:en
+4. Klicka på "Installera" och vänta på att det slutförs
+5. Aktivera modulen i dina världsinställningar
+
+### Krav
+- Foundry VTT v10 eller högre
+
+---
+
+## <a name="português"></a>🇵🇹 Português
+
+### Funcionalidades
+- Sincronização em tempo real
+- Gerenciamento de inventário compartilhado
+- Temas personalizáveis
+- Interface de arrastar e soltar
+- Classificação e filtragem avançadas
+- Sistema de permissões de jogadores
+
+### Instalação
+1. Copie o URL de instalação do módulo
+2. Abra o Foundry VTT e navegue até a aba Módulos Complementares
+3. Clique em "Instalar Módulo" e cole o URL
+4. Clique em "Instalar" e aguarde a conclusão
+5. Ative o módulo nas configurações do seu mundo
+
+### Requisitos
+- Foundry VTT v10 ou superior
+
+---
+
+## <a name="日本語"></a>🇯🇵 日本語
+
+### 機能
+- リアルタイム同期
+- 共有インベントリ管理
+- カスタマイズ可能なテーマ
+- ドラッグ＆ドロップインターフェース
+- 高度な並べ替えとフィルタリング
+- プレイヤー権限システム
+
+### インストール
+1. モジュールのインストールURLをコピー
+2. Foundry VTTを開き、アドオンモジュールタブに移動
+3. "モジュールをインストール"をクリックしてURLを貼り付け
+4. "インストール"をクリックして完了を待つ
+5. ワールド設定でモジュールを有効化
+
+### 要件
+- Foundry VTT v10以上
+
+---
+
+## <a name="中文"></a>🇨🇳 中文
+
+### 功能
+- 实时同步
+- 共享物品栏管理
+- 可自定义主题
+- 拖放界面
+- 高级排序和筛选
+- 玩家权限系统
+
+### 安装
+1. 复制模块安装URL
+2. 打开Foundry VTT并导航到附加模块标签页
+3. 点击"安装模块"并粘贴URL
+4. 点击"安装"并等待完成
+5. 在世界设置中启用模块
+
+### 要求
+- Foundry VTT v10或更高版本
+
+---
+
 ## 💬 Support
 
-Need help? Join our [Discord community](https://discord.gg/teambox) or open an issue on our [GitHub repository](https://github.com/yourusername/team-box).
+[Discord](https://discord.gg/teambox) | [GitHub](https://github.com/yourusername/team-box)
 
 ## 📜 License
 
