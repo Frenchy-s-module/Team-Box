@@ -82,6 +82,6 @@
   ],
   "socket": true,
   "url": "https://github.com/Frenchy-s-module/Team-Box",
-  "manifest": "https://github.com/Frenchy-s-module/Team-Box/releases/latest/download/module.json",
-  "download": "https://github.com/Frenchy-s-module/Team-Box/releases/download/v1.0.0/team-box.zip"
+  "manifest": "https://github.com/Frenchy-s-module/Team-Box/releases/download/V1.0.0/module.json",
+  "download": "https://github.com/Frenchy-s-module/Team-Box/releases/download/V1.0.0/team-box.zip"
 }
