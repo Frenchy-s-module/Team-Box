@@ -43,6 +43,9 @@ export class TeamBoxSocket {
             case 'inventoryUpdated':
                 this._handleInventoryUpdate(message.data);
                 break;
+            case 'clearInventory':
+                this._handleClearInventory();
+                break;
         }
 
         // Messages réservés au MJ
@@ -443,6 +446,16 @@ export class TeamBoxSocket {
         // Ajouter le nouvel item
         await TeamBox.addItem(playerItem);
         ui.notifications.info(game.i18n.format('TEAMBOX.Notifications.ItemTaken', { name: item.name }));
+    }
+
+    static async _handleClearInventory() {
+        if (!game.user.isGM) {
+            await game.settings.set(TeamBox.ID, TeamBox.FLAGS.INVENTORY, []);
+            if (game.teamBox?.inventory) {
+                game.teamBox.inventory.render(true);
+            }
+            ui.notifications.info(game.i18n.localize('TEAMBOX.Notifications.AllItemsDeleted'));
+        }
     }
 }
 

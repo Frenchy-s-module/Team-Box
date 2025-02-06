@@ -1,0 +1,72 @@
+{
+    "TEAMBOX": {
+        "Title": "Team Box",
+        "Inventory": {
+            "Title": "Team Inventar",
+            "Empty": "Keine Gegenstände im Inventar"
+        },
+        "Settings": {
+            "Theme": {
+                "Name": "Design",
+                "Hint": "Wählen Sie das visuelle Design für das Team-Inventar"
+            }
+        },
+        "Controls": {
+            "Sort": {
+                "Name": "Nach Name sortieren",
+                "Type": "Nach Typ sortieren",
+                "Quantity": "Nach Menge sortieren"
+            },
+            "Edit": "Bearbeiten",
+            "Delete": "Löschen",
+            "Give": "Geben",
+            "Take": "Nehmen",
+            "Filter": {
+                "All": "Alle",
+                "Weapons": "Waffen",
+                "Armor": "Rüstung",
+                "Equipment": "Ausrüstung",
+                "Consumables": "Verbrauchsgegenstände",
+                "Tools": "Werkzeuge"
+            }
+        },
+        "DropZone": {
+            "Text": "Gegenstände hier ablegen"
+        },
+        "Dialogs": {
+            "Edit": {
+                "Title": "Gegenstand bearbeiten",
+                "Quantity": "Menge",
+                "Confirm": "Aktualisieren",
+                "Cancel": "Abbrechen"
+            },
+            "Delete": {
+                "Title": "Gegenstand löschen",
+                "Content": "Möchten Sie diesen Gegenstand wirklich löschen?",
+                "Confirm": "Löschen",
+                "Cancel": "Abbrechen"
+            },
+            "Give": {
+                "Title": "Gegenstand geben",
+                "SelectPlayer": "Spieler auswählen"
+            }
+        },
+        "Notifications": {
+            "ItemAdded": "Gegenstand zum Inventar hinzugefügt",
+            "ItemRemoved": "Gegenstand aus dem Team-Inventar entfernt",
+            "ItemUpdated": "Gegenstand aktualisiert",
+            "ItemTaken": "Sie haben 1 {name} genommen",
+            "ItemDeleted": "Gegenstand gelöscht",
+            "ItemGiven": "Gegenstand an {target} gegeben",
+            "ItemReceived": "{item} von {source} erhalten"
+        },
+        "Errors": {
+            "InvalidItem": "Ungültiger Gegenstand",
+            "NoPermission": "Sie haben keine Berechtigung dafür",
+            "TargetNotFound": "Ziel nicht gefunden",
+            "AddFailed": "Hinzufügen fehlgeschlagen",
+            "UpdateFailed": "Aktualisierung fehlgeschlagen",
+            "DeleteFailed": "Löschen fehlgeschlagen"
+        }
+    }
+}

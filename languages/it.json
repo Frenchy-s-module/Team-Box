@@ -1,0 +1,72 @@
+{
+    "TEAMBOX": {
+        "Title": "Team Box",
+        "Inventory": {
+            "Title": "Inventario di Squadra",
+            "Empty": "Nessun oggetto nell'inventario"
+        },
+        "Settings": {
+            "Theme": {
+                "Name": "Tema",
+                "Hint": "Scegli il tema visuale per l'inventario di squadra"
+            }
+        },
+        "Controls": {
+            "Sort": {
+                "Name": "Ordina per Nome",
+                "Type": "Ordina per Tipo",
+                "Quantity": "Ordina per Quantità"
+            },
+            "Edit": "Modifica",
+            "Delete": "Elimina",
+            "Give": "Dai",
+            "Take": "Prendi",
+            "Filter": {
+                "All": "Tutti",
+                "Weapons": "Armi",
+                "Armor": "Armatura",
+                "Equipment": "Equipaggiamento",
+                "Consumables": "Consumabili",
+                "Tools": "Strumenti"
+            }
+        },
+        "DropZone": {
+            "Text": "Trascina qui gli oggetti"
+        },
+        "Dialogs": {
+            "Edit": {
+                "Title": "Modifica Oggetto",
+                "Quantity": "Quantità",
+                "Confirm": "Aggiorna",
+                "Cancel": "Annulla"
+            },
+            "Delete": {
+                "Title": "Elimina Oggetto",
+                "Content": "Sei sicuro di voler eliminare questo oggetto?",
+                "Confirm": "Elimina",
+                "Cancel": "Annulla"
+            },
+            "Give": {
+                "Title": "Dai Oggetto",
+                "SelectPlayer": "Seleziona Giocatore"
+            }
+        },
+        "Notifications": {
+            "ItemAdded": "Oggetto aggiunto all'inventario",
+            "ItemRemoved": "Oggetto rimosso dall'inventario di squadra",
+            "ItemUpdated": "Oggetto aggiornato",
+            "ItemTaken": "Hai preso 1 {name}",
+            "ItemDeleted": "Oggetto eliminato",
+            "ItemGiven": "Oggetto dato a {target}",
+            "ItemReceived": "Ricevuto {item} da {source}"
+        },
+        "Errors": {
+            "InvalidItem": "Oggetto non valido",
+            "NoPermission": "Non hai il permesso di farlo",
+            "TargetNotFound": "Obiettivo non trovato",
+            "AddFailed": "Aggiunta fallita",
+            "UpdateFailed": "Aggiornamento fallito",
+            "DeleteFailed": "Eliminazione fallita"
+        }
+    }
+}

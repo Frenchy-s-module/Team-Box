@@ -1,0 +1,72 @@
+{
+    "TEAMBOX": {
+        "Title": "Team Box",
+        "Inventory": {
+            "Title": "チームインベントリ",
+            "Empty": "アイテムがありません"
+        },
+        "Settings": {
+            "Theme": {
+                "Name": "テーマ",
+                "Hint": "チームインベントリの視覚テーマを選択"
+            }
+        },
+        "Controls": {
+            "Sort": {
+                "Name": "名前で並べ替え",
+                "Type": "種類で並べ替え",
+                "Quantity": "数量で並べ替え"
+            },
+            "Edit": "編集",
+            "Delete": "削除",
+            "Give": "渡す",
+            "Take": "取る",
+            "Filter": {
+                "All": "すべて",
+                "Weapons": "武器",
+                "Armor": "防具",
+                "Equipment": "装備",
+                "Consumables": "消耗品",
+                "Tools": "道具"
+            }
+        },
+        "DropZone": {
+            "Text": "アイテムをここにドロップ"
+        },
+        "Dialogs": {
+            "Edit": {
+                "Title": "アイテムを編集",
+                "Quantity": "数量",
+                "Confirm": "更新",
+                "Cancel": "キャンセル"
+            },
+            "Delete": {
+                "Title": "アイテムを削除",
+                "Content": "このアイテムを削除してもよろしいですか？",
+                "Confirm": "削除",
+                "Cancel": "キャンセル"
+            },
+            "Give": {
+                "Title": "アイテムを渡す",
+                "SelectPlayer": "プレイヤーを選択"
+            }
+        },
+        "Notifications": {
+            "ItemAdded": "アイテムがインベントリに追加されました",
+            "ItemRemoved": "アイテムがチームインベントリから削除されました",
+            "ItemUpdated": "アイテムが更新されました",
+            "ItemTaken": "{name}を1つ取りました",
+            "ItemDeleted": "アイテムが削除されました",
+            "ItemGiven": "アイテムを{target}に渡しました",
+            "ItemReceived": "{source}から{item}を受け取りました"
+        },
+        "Errors": {
+            "InvalidItem": "無効なアイテム",
+            "NoPermission": "権限がありません",
+            "TargetNotFound": "対象が見つかりません",
+            "AddFailed": "追加に失敗しました",
+            "UpdateFailed": "更新に失敗しました",
+            "DeleteFailed": "削除に失敗しました"
+        }
+    }
+}

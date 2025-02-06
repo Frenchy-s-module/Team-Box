@@ -1,6 +1,43 @@
-# Team-Box
+# 🎮 Team Box
 
-## [English]
+[🇺🇸](#english) | [🇫🇷](#français) | [🇩🇪](#deutsch) | [🇪🇸](#español) | [🇮🇹](#italiano) | [🇳🇴](#norsk) | [🇩🇰](#dansk) | [🇸🇪](#svenska) | [🇵🇹](#português) | [🇯🇵](#日本語) | [🇨🇳](#中文)
+
+## 🌍 Multi-language Support
+
+🇺🇸 A powerful and intuitive inventory management system for your team with real-time synchronization for FoundryVTT.
+
+🇫🇷 Un système de gestion d'inventaire puissant et intuitif pour votre équipe avec synchronisation en temps réel pour FoundryVTT.
+
+🇩🇪 Ein leistungsstarkes und intuitives Inventarverwaltungssystem für Ihr Team mit Echtzeit-Synchronisation für FoundryVTT.
+
+🇪🇸 Un sistema de gestión de inventario potente e intuitivo para tu equipo con sincronización en tiempo real para FoundryVTT.
+
+🇮🇹 Un sistema di gestione dell'inventario potente e intuitivo per il tuo team con sincronizzazione in tempo reale per FoundryVTT.
+
+🇳🇴 Et kraftig og intuitivt inventarstyringssystem for teamet ditt med sanntidssynkronisering for FoundryVTT.
+
+🇩🇰 Et kraftfuldt og intuitivt inventarstyringssystem til dit team med realtidssynkronisering til FoundryVTT.
+
+🇸🇪 Ett kraftfullt och intuitivt inventeringssystem för ditt team med realtidssynkronisering för FoundryVTT.
+
+🇵🇹 Um sistema de gerenciamento de inventário poderoso e intuitivo para sua equipe com sincronização em tempo real para FoundryVTT.
+
+🇯🇵 FoundryVTT向けのリアルタイム同期機能を備えた、パワフルで直感的なチーム用インベントリ管理システム。
+
+🇨🇳 为FoundryVTT打造的功能强大、直观的团队物品栏管理系统，支持实时同步。
+
+## 🚀 Features
+
+- ⚡ Real-time synchronization
+- 📦 Shared inventory management
+- 🎨 Customizable themes
+- 🔄 Drag and drop interface
+- 🔍 Advanced sorting and filtering
+- 👥 Player permissions system
+
+---
+
+## <a name="english"></a>🇺🇸 English
 
 A Foundry VTT module that adds a shared inventory system for your team.
 
@@ -40,9 +77,7 @@ A Foundry VTT module that adds a shared inventory system for your team.
 
 - Foundry VTT v10 or higher
 
----
-
-## [Français]
+## <a name="français"></a>🇫🇷 Français
 
 Un module Foundry VTT qui ajoute un système d'inventaire partagé pour votre équipe.
 
@@ -81,3 +116,19 @@ Un module Foundry VTT qui ajoute un système d'inventaire partagé pour votre é
 ### Prérequis
 
 - Foundry VTT v10 ou supérieur 
+
+## 🛠️ Installation
+
+1. Copy the module installation URL
+2. Open Foundry VTT and navigate to the Add-on Modules tab
+3. Click "Install Module" and paste the URL
+4. Click "Install" and wait for completion
+5. Enable the module in your world's Module Settings
+
+## 💬 Support
+
+Need help? Join our [Discord community](https://discord.gg/teambox) or open an issue on our [GitHub repository](https://github.com/yourusername/team-box).
+
+## 📜 License
+
+This module is licensed under the MIT License. See the LICENSE file for details.

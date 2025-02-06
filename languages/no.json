@@ -1,0 +1,72 @@
+{
+    "TEAMBOX": {
+        "Title": "Team Box",
+        "Inventory": {
+            "Title": "Laginventar",
+            "Empty": "Ingen gjenstander i inventaret"
+        },
+        "Settings": {
+            "Theme": {
+                "Name": "Tema",
+                "Hint": "Velg visuelt tema for laginventaret"
+            }
+        },
+        "Controls": {
+            "Sort": {
+                "Name": "Sorter etter navn",
+                "Type": "Sorter etter type",
+                "Quantity": "Sorter etter antall"
+            },
+            "Edit": "Rediger",
+            "Delete": "Slett",
+            "Give": "Gi",
+            "Take": "Ta",
+            "Filter": {
+                "All": "Alle",
+                "Weapons": "Våpen",
+                "Armor": "Rustning",
+                "Equipment": "Utstyr",
+                "Consumables": "Forbruksvarer",
+                "Tools": "Verktøy"
+            }
+        },
+        "DropZone": {
+            "Text": "Dra og slipp gjenstander her"
+        },
+        "Dialogs": {
+            "Edit": {
+                "Title": "Rediger gjenstand",
+                "Quantity": "Antall",
+                "Confirm": "Oppdater",
+                "Cancel": "Avbryt"
+            },
+            "Delete": {
+                "Title": "Slett gjenstand",
+                "Content": "Er du sikker på at du vil slette denne gjenstanden?",
+                "Confirm": "Slett",
+                "Cancel": "Avbryt"
+            },
+            "Give": {
+                "Title": "Gi gjenstand",
+                "SelectPlayer": "Velg spiller"
+            }
+        },
+        "Notifications": {
+            "ItemAdded": "Gjenstand lagt til i inventaret",
+            "ItemRemoved": "Gjenstand fjernet fra laginventaret",
+            "ItemUpdated": "Gjenstand oppdatert",
+            "ItemTaken": "Du tok 1 {name}",
+            "ItemDeleted": "Gjenstand slettet",
+            "ItemGiven": "Gjenstand gitt til {target}",
+            "ItemReceived": "Mottatt {item} fra {source}"
+        },
+        "Errors": {
+            "InvalidItem": "Ugyldig gjenstand",
+            "NoPermission": "Du har ikke tillatelse til å gjøre dette",
+            "TargetNotFound": "Mål ikke funnet",
+            "AddFailed": "Kunne ikke legge til",
+            "UpdateFailed": "Kunne ikke oppdatere",
+            "DeleteFailed": "Kunne ikke slette"
+        }
+    }
+}

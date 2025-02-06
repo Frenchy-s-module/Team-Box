@@ -594,6 +594,9 @@ export class TeamBoxApp extends Application {
                     callback: async () => {
                         if (game.user.isGM) {
                             await game.settings.set(TeamBox.ID, TeamBox.FLAGS.INVENTORY, []);
+                            game.socket.emit(`module.${TeamBox.ID}`, {
+                                type: 'clearInventory'
+                            });
                             this.render(true);
                             ui.notifications.info(game.i18n.localize('TEAMBOX.Notifications.AllItemsDeleted'));
                         }

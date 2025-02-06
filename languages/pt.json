@@ -1,0 +1,72 @@
+{
+    "TEAMBOX": {
+        "Title": "Team Box",
+        "Inventory": {
+            "Title": "Inventário da Equipe",
+            "Empty": "Nenhum item no inventário"
+        },
+        "Settings": {
+            "Theme": {
+                "Name": "Tema",
+                "Hint": "Escolha o tema visual para o inventário da equipe"
+            }
+        },
+        "Controls": {
+            "Sort": {
+                "Name": "Ordenar por Nome",
+                "Type": "Ordenar por Tipo",
+                "Quantity": "Ordenar por Quantidade"
+            },
+            "Edit": "Editar",
+            "Delete": "Excluir",
+            "Give": "Dar",
+            "Take": "Pegar",
+            "Filter": {
+                "All": "Todos",
+                "Weapons": "Armas",
+                "Armor": "Armadura",
+                "Equipment": "Equipamento",
+                "Consumables": "Consumíveis",
+                "Tools": "Ferramentas"
+            }
+        },
+        "DropZone": {
+            "Text": "Arraste e solte itens aqui"
+        },
+        "Dialogs": {
+            "Edit": {
+                "Title": "Editar Item",
+                "Quantity": "Quantidade",
+                "Confirm": "Atualizar",
+                "Cancel": "Cancelar"
+            },
+            "Delete": {
+                "Title": "Excluir Item",
+                "Content": "Tem certeza que deseja excluir este item?",
+                "Confirm": "Excluir",
+                "Cancel": "Cancelar"
+            },
+            "Give": {
+                "Title": "Dar Item",
+                "SelectPlayer": "Selecionar Jogador"
+            }
+        },
+        "Notifications": {
+            "ItemAdded": "Item adicionado ao inventário",
+            "ItemRemoved": "Item removido do inventário da equipe",
+            "ItemUpdated": "Item atualizado",
+            "ItemTaken": "Você pegou 1 {name}",
+            "ItemDeleted": "Item excluído",
+            "ItemGiven": "Item dado para {target}",
+            "ItemReceived": "Recebido {item} de {source}"
+        },
+        "Errors": {
+            "InvalidItem": "Item inválido",
+            "NoPermission": "Você não tem permissão para fazer isso",
+            "TargetNotFound": "Alvo não encontrado",
+            "AddFailed": "Falha ao adicionar",
+            "UpdateFailed": "Falha ao atualizar",
+            "DeleteFailed": "Falha ao excluir"
+        }
+    }
+}

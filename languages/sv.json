@@ -1,0 +1,72 @@
+{
+    "TEAMBOX": {
+        "Title": "Team Box",
+        "Inventory": {
+            "Title": "Laginventering",
+            "Empty": "Inga föremål i inventeringen"
+        },
+        "Settings": {
+            "Theme": {
+                "Name": "Tema",
+                "Hint": "Välj visuellt tema för laginventeringen"
+            }
+        },
+        "Controls": {
+            "Sort": {
+                "Name": "Sortera efter namn",
+                "Type": "Sortera efter typ",
+                "Quantity": "Sortera efter antal"
+            },
+            "Edit": "Redigera",
+            "Delete": "Ta bort",
+            "Give": "Ge",
+            "Take": "Ta",
+            "Filter": {
+                "All": "Alla",
+                "Weapons": "Vapen",
+                "Armor": "Rustning",
+                "Equipment": "Utrustning",
+                "Consumables": "Förbrukningsvaror",
+                "Tools": "Verktyg"
+            }
+        },
+        "DropZone": {
+            "Text": "Dra och släpp föremål här"
+        },
+        "Dialogs": {
+            "Edit": {
+                "Title": "Redigera föremål",
+                "Quantity": "Antal",
+                "Confirm": "Uppdatera",
+                "Cancel": "Avbryt"
+            },
+            "Delete": {
+                "Title": "Ta bort föremål",
+                "Content": "Är du säker på att du vill ta bort detta föremål?",
+                "Confirm": "Ta bort",
+                "Cancel": "Avbryt"
+            },
+            "Give": {
+                "Title": "Ge föremål",
+                "SelectPlayer": "Välj spelare"
+            }
+        },
+        "Notifications": {
+            "ItemAdded": "Föremål tillagt i inventeringen",
+            "ItemRemoved": "Föremål borttaget från laginventeringen",
+            "ItemUpdated": "Föremål uppdaterat",
+            "ItemTaken": "Du tog 1 {name}",
+            "ItemDeleted": "Föremål borttaget",
+            "ItemGiven": "Föremål givet till {target}",
+            "ItemReceived": "Mottog {item} från {source}"
+        },
+        "Errors": {
+            "InvalidItem": "Ogiltigt föremål",
+            "NoPermission": "Du har inte behörighet att göra detta",
+            "TargetNotFound": "Mål hittades inte",
+            "AddFailed": "Kunde inte lägga till",
+            "UpdateFailed": "Kunde inte uppdatera",
+            "DeleteFailed": "Kunde inte ta bort"
+        }
+    }
+}

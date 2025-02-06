@@ -33,6 +33,51 @@
       "lang": "fr",
       "name": "Français",
       "path": "languages/fr.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "languages/de.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "languages/es.json"
+    },
+    {
+      "lang": "it",
+      "name": "Italiano",
+      "path": "languages/it.json"
+    },
+    {
+      "lang": "no",
+      "name": "Norsk",
+      "path": "languages/no.json"
+    },
+    {
+      "lang": "da",
+      "name": "Dansk",
+      "path": "languages/da.json"
+    },
+    {
+      "lang": "sv",
+      "name": "Svenska",
+      "path": "languages/sv.json"
+    },
+    {
+      "lang": "pt",
+      "name": "Português",
+      "path": "languages/pt.json"
+    },
+    {
+      "lang": "ja",
+      "name": "日本語",
+      "path": "languages/ja.json"
+    },
+    {
+      "lang": "zh",
+      "name": "中文",
+      "path": "languages/zh.json"
     }
   ],
   "socket": true,
