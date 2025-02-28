@@ -1,6 +1,6 @@
 # 🎮 Team Box
 
-[🇺🇸](#english) | [🇫🇷](#français) | [🇩🇪](#deutsch) | [🇪🇸](#español) | [🇮🇹](#italiano) | [🇳🇴](#norsk) | [🇩🇰](#dansk) | [🇸🇪](#svenska) | [🇵🇹](#português) | [🇯🇵](#日本語) | [🇨🇳](#中文)
+[🇺🇸](#english) | [🇫🇷](#français) | [🇩🇪](#deutsch) | [🇪🇸](#español) | [🇮🇹](#italiano) | [🇳🇴](#norsk) | [🇩🇰](#dansk) | [🇸🇪](#svenska) | [🇵🇹](#português) | [🇯🇵](#日本語) | [🇨🇳](#中文) | [🇵🇱](#polski)
 
 ## 🌍 Multi-language Support
 
@@ -25,6 +25,8 @@
 🇯🇵 FoundryVTT向けのリアルタイム同期機能を備えた、パワフルで直感的なチーム用インベントリ管理システム。
 
 🇨🇳 为FoundryVTT打造的功能强大、直观的团队物品栏管理系统，支持实时同步。
+
+🇵🇱 Potężny i intuicyjny system zarządzania ekwipunkiem drużyny z synchronizacją w czasie rzeczywistym dla FoundryVTT.
 
 ## 🚀 Features
 
@@ -276,6 +278,28 @@
 
 ### 要求
 - Foundry VTT v10或更高版本
+
+---
+
+## <a name="polski"></a>🇵🇱 Polski
+
+### Funkcje
+- Synchronizacja w czasie rzeczywistym
+- Wspólne zarządzanie ekwipunkiem
+- Konfigurowalne motywy
+- Interfejs przeciągnij i upuść
+- Zaawansowane sortowanie i filtrowanie
+- System uprawnień graczy
+
+### Instalacja
+1. Skopiuj URL instalacji modułu
+2. Otwórz Foundry VTT i przejdź do zakładki Moduły dodatkowe
+3. Kliknij "Zainstaluj moduł" i wklej URL
+4. Kliknij "Zainstaluj" i poczekaj na zakończenie
+5. Włącz moduł w ustawieniach swojego świata
+
+### Wymagania
+- Foundry VTT v10 lub nowszy
 
 ---
 
