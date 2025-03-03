@@ -1,6 +1,6 @@
 {
     "TEAMBOX": {
-        "Title": "Team Box",
+        "Title": "チームインベントリ",
         "Inventory": {
             "Title": "チームインベントリ",
             "Empty": "アイテムがありません"
@@ -8,7 +8,7 @@
         "Settings": {
             "Theme": {
                 "Name": "テーマ",
-                "Hint": "チームインベントリの視覚テーマを選択"
+                "Hint": "インベントリの視覚テーマを選択"
             }
         },
         "Controls": {
@@ -19,19 +19,36 @@
             },
             "Edit": "編集",
             "Delete": "削除",
+            "DeleteAll": "すべて削除",
             "Give": "渡す",
             "Take": "取る",
-            "Filter": {
+            "Filters": {
                 "All": "すべて",
-                "Weapons": "武器",
-                "Armor": "防具",
-                "Equipment": "装備",
-                "Consumables": "消耗品",
-                "Tools": "道具"
-            }
+                "weapon": "武器",
+                "armor": "防具",
+                "item": "アイテム",
+                "equipment": "装備",
+                "consumables": "消耗品",
+                "tools": "道具",
+                "spells": "呪文",
+                "features": "特徴",
+                "spacecraftmods": "宇宙船改造",
+                "vehicleweapons": "車両武器",
+                "spacecraftweapons": "宇宙船武器",
+                "currency": "通貨",
+                "containers": "容器",
+                "loot": "戦利品",
+                "cybernetics": "サイバネティクス",
+                "modifications": "改造",
+                "drugs": "薬品",
+                "magic": "魔法アイテム",
+                "tech": "テクノロジー"
+            },
+            "Confirm": "確認",
+            "Cancel": "キャンセル"
         },
         "DropZone": {
-            "Text": "アイテムをここにドロップ"
+            "Text": "ここにアイテムをドロップ"
         },
         "Dialogs": {
             "Edit": {
@@ -46,27 +63,47 @@
                 "Confirm": "削除",
                 "Cancel": "キャンセル"
             },
+            "DeleteAll": {
+                "Title": "インベントリをすべて削除",
+                "Content": "チームインベントリからすべてのアイテムを削除してもよろしいですか？この操作は取り消せません。"
+            },
             "Give": {
                 "Title": "アイテムを渡す",
-                "SelectPlayer": "プレイヤーを選択"
+                "SelectPlayer": "プレイヤーを選択",
+                "Token": "トークン",
+                "Quantity": "数量"
+            },
+            "TakeRequest": {
+                "Title": "アイテム取得リクエスト",
+                "Content": "{player}が{item}の取得をリクエストしています",
+                "Confirm": "許可",
+                "Cancel": "拒否"
             }
         },
         "Notifications": {
             "ItemAdded": "アイテムがインベントリに追加されました",
-            "ItemRemoved": "アイテムがチームインベントリから削除されました",
             "ItemUpdated": "アイテムが更新されました",
-            "ItemTaken": "{name}を1つ取りました",
             "ItemDeleted": "アイテムが削除されました",
+            "AllItemsDeleted": "すべてのアイテムがチームインベントリから削除されました",
             "ItemGiven": "アイテムを{target}に渡しました",
-            "ItemReceived": "{source}から{item}を受け取りました"
+            "ItemReceived": "{source}から{item}を受け取りました",
+            "ItemTaken": "{name}を1つ取りました",
+            "ItemRemoved": "アイテムがチームインベントリから削除されました",
+            "QuantityUpdated": "{item}の数量が{quantity}に更新されました",
+            "ItemSent": "{item}を{recipient}に送信しました",
+            "ItemRequested": "GMにアイテムリクエストを送信しました",
+            "ItemRequestAccepted": "{item}のリクエストが承認されました",
+            "ItemRequestDenied": "{item}のリクエストが拒否されました"
         },
         "Errors": {
+            "NoTokens": "シーンにトークンがありません",
             "InvalidItem": "無効なアイテム",
             "NoPermission": "権限がありません",
             "TargetNotFound": "対象が見つかりません",
-            "AddFailed": "追加に失敗しました",
-            "UpdateFailed": "更新に失敗しました",
-            "DeleteFailed": "削除に失敗しました"
+            "AddFailed": "アイテムの追加に失敗しました",
+            "UpdateFailed": "アイテムの更新に失敗しました",
+            "DeleteFailed": "アイテムの削除に失敗しました",
+            "InvalidQuantity": "無効な数量"
         }
     }
 }

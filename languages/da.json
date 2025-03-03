@@ -1,14 +1,14 @@
 {
     "TEAMBOX": {
-        "Title": "Team Box",
+        "Title": "Hold Inventar",
         "Inventory": {
-            "Title": "Holdets inventar",
+            "Title": "Hold Inventar",
             "Empty": "Ingen genstande i inventaret"
         },
         "Settings": {
             "Theme": {
                 "Name": "Tema",
-                "Hint": "Vælg visuelt tema for holdets inventar"
+                "Hint": "Vælg det visuelle tema for inventaret"
             }
         },
         "Controls": {
@@ -19,54 +19,91 @@
             },
             "Edit": "Redigér",
             "Delete": "Slet",
+            "DeleteAll": "Slet alt",
             "Give": "Giv",
             "Take": "Tag",
-            "Filter": {
+            "Filters": {
                 "All": "Alle",
-                "Weapons": "Våben",
-                "Armor": "Rustning",
-                "Equipment": "Udstyr",
-                "Consumables": "Forbrugsvarer",
-                "Tools": "Værktøj"
-            }
+                "weapon": "Våben",
+                "armor": "Rustning",
+                "item": "Genstande",
+                "equipment": "Udstyr",
+                "consumables": "Forbrugsvarer",
+                "tools": "Værktøj",
+                "spells": "Besværgelser",
+                "features": "Egenskaber",
+                "spacecraftmods": "Rumskibsmodifikationer",
+                "vehicleweapons": "Køretøjsvåben",
+                "spacecraftweapons": "Rumskibsvåben",
+                "currency": "Valuta",
+                "containers": "Beholdere",
+                "loot": "Bytte",
+                "cybernetics": "Kybernetik",
+                "modifications": "Modifikationer",
+                "drugs": "Medicin",
+                "magic": "Magiske Genstande",
+                "tech": "Teknologi"
+            },
+            "Confirm": "Bekræft",
+            "Cancel": "Annullér"
         },
         "DropZone": {
-            "Text": "Træk og slip genstande her"
+            "Text": "Slip genstande her"
         },
         "Dialogs": {
             "Edit": {
-                "Title": "Redigér genstand",
+                "Title": "Redigér Genstand",
                 "Quantity": "Antal",
-                "Confirm": "Opdater",
-                "Cancel": "Annuller"
+                "Confirm": "Opdatér",
+                "Cancel": "Annullér"
             },
             "Delete": {
-                "Title": "Slet genstand",
+                "Title": "Slet Genstand",
                 "Content": "Er du sikker på, at du vil slette denne genstand?",
                 "Confirm": "Slet",
-                "Cancel": "Annuller"
+                "Cancel": "Annullér"
+            },
+            "DeleteAll": {
+                "Title": "Slet Hele Inventaret",
+                "Content": "Er du sikker på, at du vil slette alle genstande fra hold inventaret? Denne handling kan ikke fortrydes."
             },
             "Give": {
-                "Title": "Giv genstand",
-                "SelectPlayer": "Vælg spiller"
+                "Title": "Giv Genstand",
+                "SelectPlayer": "Vælg Spiller",
+                "Token": "Brik",
+                "Quantity": "Antal"
+            },
+            "TakeRequest": {
+                "Title": "Anmodning om at Tage Genstand",
+                "Content": "{player} anmoder om at tage {item}",
+                "Confirm": "Tillad",
+                "Cancel": "Afvis"
             }
         },
         "Notifications": {
             "ItemAdded": "Genstand tilføjet til inventaret",
-            "ItemRemoved": "Genstand fjernet fra holdets inventar",
             "ItemUpdated": "Genstand opdateret",
-            "ItemTaken": "Du tog 1 {name}",
             "ItemDeleted": "Genstand slettet",
+            "AllItemsDeleted": "Alle genstande er blevet slettet fra hold inventaret",
             "ItemGiven": "Genstand givet til {target}",
-            "ItemReceived": "Modtaget {item} fra {source}"
+            "ItemReceived": "Modtaget {item} fra {source}",
+            "ItemTaken": "Du tog 1 {name}",
+            "ItemRemoved": "Genstand fjernet fra hold inventaret",
+            "QuantityUpdated": "Antal af {item} opdateret til {quantity}",
+            "ItemSent": "{item} sendt til {recipient}",
+            "ItemRequested": "Genstandsanmodning sendt til GM",
+            "ItemRequestAccepted": "Anmodning accepteret for {item}",
+            "ItemRequestDenied": "Anmodning afvist for {item}"
         },
         "Errors": {
+            "NoTokens": "Ingen brikker på scenen",
             "InvalidItem": "Ugyldig genstand",
             "NoPermission": "Du har ikke tilladelse til dette",
             "TargetNotFound": "Mål ikke fundet",
-            "AddFailed": "Kunne ikke tilføje",
-            "UpdateFailed": "Kunne ikke opdatere",
-            "DeleteFailed": "Kunne ikke slette"
+            "AddFailed": "Kunne ikke tilføje genstand",
+            "UpdateFailed": "Kunne ikke opdatere genstand",
+            "DeleteFailed": "Kunne ikke slette genstand",
+            "InvalidQuantity": "Ugyldigt antal"
         }
     }
 }

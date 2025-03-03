@@ -1,6 +1,6 @@
 {
     "TEAMBOX": {
-        "Title": "Team Box",
+        "Title": "Inventário da Equipe",
         "Inventory": {
             "Title": "Inventário da Equipe",
             "Empty": "Nenhum item no inventário"
@@ -8,7 +8,7 @@
         "Settings": {
             "Theme": {
                 "Name": "Tema",
-                "Hint": "Escolha o tema visual para o inventário da equipe"
+                "Hint": "Selecione o tema visual para o inventário"
             }
         },
         "Controls": {
@@ -19,19 +19,36 @@
             },
             "Edit": "Editar",
             "Delete": "Excluir",
+            "DeleteAll": "Excluir Tudo",
             "Give": "Dar",
             "Take": "Pegar",
-            "Filter": {
+            "Filters": {
                 "All": "Todos",
-                "Weapons": "Armas",
-                "Armor": "Armadura",
-                "Equipment": "Equipamento",
-                "Consumables": "Consumíveis",
-                "Tools": "Ferramentas"
-            }
+                "weapon": "Armas",
+                "armor": "Armadura",
+                "item": "Itens",
+                "equipment": "Equipamento",
+                "consumables": "Consumíveis",
+                "tools": "Ferramentas",
+                "spells": "Magias",
+                "features": "Características",
+                "spacecraftmods": "Modificações de Nave",
+                "vehicleweapons": "Armas de Veículo",
+                "spacecraftweapons": "Armas de Nave",
+                "currency": "Moeda",
+                "containers": "Recipientes",
+                "loot": "Saque",
+                "cybernetics": "Cibernética",
+                "modifications": "Modificações",
+                "drugs": "Medicamentos",
+                "magic": "Itens Mágicos",
+                "tech": "Tecnologia"
+            },
+            "Confirm": "Confirmar",
+            "Cancel": "Cancelar"
         },
         "DropZone": {
-            "Text": "Arraste e solte itens aqui"
+            "Text": "Solte itens aqui"
         },
         "Dialogs": {
             "Edit": {
@@ -46,27 +63,47 @@
                 "Confirm": "Excluir",
                 "Cancel": "Cancelar"
             },
+            "DeleteAll": {
+                "Title": "Excluir Todo o Inventário",
+                "Content": "Tem certeza que deseja excluir todos os itens do inventário da equipe? Esta ação não pode ser desfeita."
+            },
             "Give": {
                 "Title": "Dar Item",
-                "SelectPlayer": "Selecionar Jogador"
+                "SelectPlayer": "Selecionar Jogador",
+                "Token": "Token",
+                "Quantity": "Quantidade"
+            },
+            "TakeRequest": {
+                "Title": "Solicitação para Pegar Item",
+                "Content": "{player} solicita pegar {item}",
+                "Confirm": "Permitir",
+                "Cancel": "Negar"
             }
         },
         "Notifications": {
             "ItemAdded": "Item adicionado ao inventário",
-            "ItemRemoved": "Item removido do inventário da equipe",
             "ItemUpdated": "Item atualizado",
-            "ItemTaken": "Você pegou 1 {name}",
             "ItemDeleted": "Item excluído",
+            "AllItemsDeleted": "Todos os itens foram excluídos do inventário da equipe",
             "ItemGiven": "Item dado para {target}",
-            "ItemReceived": "Recebido {item} de {source}"
+            "ItemReceived": "Recebido {item} de {source}",
+            "ItemTaken": "Você pegou 1 {name}",
+            "ItemRemoved": "Item removido do inventário da equipe",
+            "QuantityUpdated": "Quantidade de {item} atualizada para {quantity}",
+            "ItemSent": "{item} enviado para {recipient}",
+            "ItemRequested": "Solicitação de item enviada para o GM",
+            "ItemRequestAccepted": "Solicitação aceita para {item}",
+            "ItemRequestDenied": "Solicitação negada para {item}"
         },
         "Errors": {
+            "NoTokens": "Nenhum token na cena",
             "InvalidItem": "Item inválido",
             "NoPermission": "Você não tem permissão para fazer isso",
             "TargetNotFound": "Alvo não encontrado",
-            "AddFailed": "Falha ao adicionar",
-            "UpdateFailed": "Falha ao atualizar",
-            "DeleteFailed": "Falha ao excluir"
+            "AddFailed": "Falha ao adicionar item",
+            "UpdateFailed": "Falha ao atualizar item",
+            "DeleteFailed": "Falha ao excluir item",
+            "InvalidQuantity": "Quantidade inválida"
         }
     }
 }

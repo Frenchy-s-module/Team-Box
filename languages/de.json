@@ -1,14 +1,14 @@
 {
     "TEAMBOX": {
-        "Title": "Team Box",
+        "Title": "Team-Inventar",
         "Inventory": {
-            "Title": "Team Inventar",
+            "Title": "Team-Inventar",
             "Empty": "Keine Gegenstände im Inventar"
         },
         "Settings": {
             "Theme": {
-                "Name": "Design",
-                "Hint": "Wählen Sie das visuelle Design für das Team-Inventar"
+                "Name": "Theme",
+                "Hint": "Wählen Sie das visuelle Theme für das Inventar"
             }
         },
         "Controls": {
@@ -19,16 +19,33 @@
             },
             "Edit": "Bearbeiten",
             "Delete": "Löschen",
+            "DeleteAll": "Alles löschen",
             "Give": "Geben",
             "Take": "Nehmen",
-            "Filter": {
+            "Filters": {
                 "All": "Alle",
-                "Weapons": "Waffen",
-                "Armor": "Rüstung",
-                "Equipment": "Ausrüstung",
-                "Consumables": "Verbrauchsgegenstände",
-                "Tools": "Werkzeuge"
-            }
+                "weapon": "Waffen",
+                "armor": "Rüstung",
+                "item": "Gegenstände",
+                "equipment": "Ausrüstung",
+                "consumables": "Verbrauchsgegenstände",
+                "tools": "Werkzeuge",
+                "spells": "Zauber",
+                "features": "Fähigkeiten",
+                "spacecraftmods": "Raumschiff-Mods",
+                "vehicleweapons": "Fahrzeugwaffen",
+                "spacecraftweapons": "Raumschiffwaffen",
+                "currency": "Währung",
+                "containers": "Behälter",
+                "loot": "Beute",
+                "cybernetics": "Kybernetik",
+                "modifications": "Modifikationen",
+                "drugs": "Medikamente",
+                "magic": "Magische Gegenstände",
+                "tech": "Technologie"
+            },
+            "Confirm": "Bestätigen",
+            "Cancel": "Abbrechen"
         },
         "DropZone": {
             "Text": "Gegenstände hier ablegen"
@@ -42,31 +59,51 @@
             },
             "Delete": {
                 "Title": "Gegenstand löschen",
-                "Content": "Möchten Sie diesen Gegenstand wirklich löschen?",
+                "Content": "Sind Sie sicher, dass Sie diesen Gegenstand löschen möchten?",
                 "Confirm": "Löschen",
                 "Cancel": "Abbrechen"
             },
+            "DeleteAll": {
+                "Title": "Gesamtes Inventar löschen",
+                "Content": "Sind Sie sicher, dass Sie alle Gegenstände aus dem Team-Inventar löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
+            },
             "Give": {
                 "Title": "Gegenstand geben",
-                "SelectPlayer": "Spieler auswählen"
+                "SelectPlayer": "Spieler auswählen",
+                "Token": "Token",
+                "Quantity": "Menge"
+            },
+            "TakeRequest": {
+                "Title": "Gegenstand-Anfrage",
+                "Content": "{player} möchte {item} nehmen",
+                "Confirm": "Erlauben",
+                "Cancel": "Ablehnen"
             }
         },
         "Notifications": {
             "ItemAdded": "Gegenstand zum Inventar hinzugefügt",
-            "ItemRemoved": "Gegenstand aus dem Team-Inventar entfernt",
             "ItemUpdated": "Gegenstand aktualisiert",
-            "ItemTaken": "Sie haben 1 {name} genommen",
             "ItemDeleted": "Gegenstand gelöscht",
+            "AllItemsDeleted": "Alle Gegenstände wurden aus dem Team-Inventar gelöscht",
             "ItemGiven": "Gegenstand an {target} gegeben",
-            "ItemReceived": "{item} von {source} erhalten"
+            "ItemReceived": "{item} von {source} erhalten",
+            "ItemTaken": "Sie haben 1 {name} genommen",
+            "ItemRemoved": "Gegenstand aus dem Team-Inventar entfernt",
+            "QuantityUpdated": "Menge von {item} auf {quantity} aktualisiert",
+            "ItemSent": "{item} an {recipient} gesendet",
+            "ItemRequested": "Gegenstand-Anfrage an SL gesendet",
+            "ItemRequestAccepted": "Anfrage für {item} akzeptiert",
+            "ItemRequestDenied": "Anfrage für {item} abgelehnt"
         },
         "Errors": {
+            "NoTokens": "Keine Token in der Szene",
             "InvalidItem": "Ungültiger Gegenstand",
             "NoPermission": "Sie haben keine Berechtigung dafür",
             "TargetNotFound": "Ziel nicht gefunden",
-            "AddFailed": "Hinzufügen fehlgeschlagen",
-            "UpdateFailed": "Aktualisierung fehlgeschlagen",
-            "DeleteFailed": "Löschen fehlgeschlagen"
+            "AddFailed": "Hinzufügen des Gegenstands fehlgeschlagen",
+            "UpdateFailed": "Aktualisierung des Gegenstands fehlgeschlagen",
+            "DeleteFailed": "Löschen des Gegenstands fehlgeschlagen",
+            "InvalidQuantity": "Ungültige Menge"
         }
     }
 }

@@ -1,14 +1,14 @@
 {
     "TEAMBOX": {
-        "Title": "Team Box",
+        "Title": "Ekwipunek Drużyny",
         "Inventory": {
-            "Title": "Ekwipunek drużyny",
+            "Title": "Ekwipunek Drużyny",
             "Empty": "Brak przedmiotów w ekwipunku"
         },
         "Settings": {
             "Theme": {
                 "Name": "Motyw",
-                "Hint": "Wybierz motyw wizualny dla ekwipunku drużyny"
+                "Hint": "Wybierz motyw wizualny dla ekwipunku"
             }
         },
         "Controls": {
@@ -24,81 +24,81 @@
             "Take": "Weź",
             "Filters": {
                 "All": "Wszystko",
-                "Weapon": "Broń",
-                "Armor": "Pancerz",
-                "Item": "Przedmioty",
-                "Equipment": "Wyposażenie",
-                "Consumables": "Przedmioty jednorazowe",
-                "Tools": "Narzędzia",
-                "Spells": "Zaklęcia",
-                "Features": "Zdolności",
-                "Spacecraftmods": "Modyfikacje statku kosmicznego",
-                "VehicleWeapons": "Uzbrojenie pojazdów",
-                "SpacecraftWeapons": "Uzbrojenie statku kosmicznego",
-                "Currency": "Waluta",
-                "Containers": "Pojemniki",
-                "Loot": "Łupy",
-                "Cybernetics": "Cybernetyka",
-                "Modifications": "Modyfikacje",
-                "Drugs": "Leki",
-                "Magic": "Przedmioty magiczne",
-                "Tech": "Technologia"
+                "weapon": "Broń",
+                "armor": "Pancerz",
+                "item": "Przedmioty",
+                "equipment": "Wyposażenie",
+                "consumables": "Przedmioty jednorazowe",
+                "tools": "Narzędzia",
+                "spells": "Zaklęcia",
+                "features": "Cechy",
+                "spacecraftmods": "Modyfikacje statku",
+                "vehicleweapons": "Broń pojazdów",
+                "spacecraftweapons": "Broń statków",
+                "currency": "Waluta",
+                "containers": "Pojemniki",
+                "loot": "Łupy",
+                "cybernetics": "Cybernetyka",
+                "modifications": "Modyfikacje",
+                "drugs": "Leki",
+                "magic": "Przedmioty magiczne",
+                "tech": "Technologia"
             },
             "Confirm": "Potwierdź",
             "Cancel": "Anuluj"
         },
         "DropZone": {
-            "Text": "Przeciągnij i upuść przedmioty tutaj"
+            "Text": "Upuść przedmioty tutaj"
         },
         "Dialogs": {
             "Edit": {
-                "Title": "Edytuj przedmiot",
+                "Title": "Edytuj Przedmiot",
                 "Quantity": "Ilość",
                 "Confirm": "Aktualizuj",
                 "Cancel": "Anuluj"
             },
             "Delete": {
-                "Title": "Usuń przedmiot",
+                "Title": "Usuń Przedmiot",
                 "Content": "Czy na pewno chcesz usunąć ten przedmiot?",
                 "Confirm": "Usuń",
                 "Cancel": "Anuluj"
             },
             "DeleteAll": {
-                "Title": "Usuń cały ekwipunek",
+                "Title": "Usuń Cały Ekwipunek",
                 "Content": "Czy na pewno chcesz usunąć wszystkie przedmioty z ekwipunku drużyny? Tej akcji nie można cofnąć."
             },
             "Give": {
-                "Title": "Przekaż przedmiot",
-                "SelectPlayer": "Wybierz gracza",
+                "Title": "Przekaż Przedmiot",
+                "SelectPlayer": "Wybierz Gracza",
                 "Token": "Token",
                 "Quantity": "Ilość"
             },
             "TakeRequest": {
-                "Title": "Prośba o wzięcie przedmiotu",
+                "Title": "Prośba o Wzięcie Przedmiotu",
                 "Content": "{player} prosi o wzięcie {item}",
                 "Confirm": "Zezwól",
                 "Cancel": "Odmów"
             }
         },
         "Notifications": {
-            "ItemAdded": "Dodano przedmiot do ekwipunku",
-            "ItemUpdated": "Zaktualizowano przedmiot",
-            "ItemDeleted": "Usunięto przedmiot",
+            "ItemAdded": "Przedmiot dodany do ekwipunku",
+            "ItemUpdated": "Przedmiot zaktualizowany",
+            "ItemDeleted": "Przedmiot usunięty",
             "AllItemsDeleted": "Wszystkie przedmioty zostały usunięte z ekwipunku drużyny",
-            "ItemGiven": "Przekazano przedmiot do {target}",
+            "ItemGiven": "Przedmiot przekazany do {target}",
             "ItemReceived": "Otrzymano {item} od {source}",
             "ItemTaken": "Wziąłeś 1 {name}",
-            "ItemRemoved": "Usunięto przedmiot z ekwipunku drużyny",
-            "QuantityUpdated": "Zaktualizowano ilość {item} na {quantity}",
-            "ItemSent": "Wysłano {item} do {recipient}",
-            "ItemRequested": "Wysłano prośbę o przedmiot do MG",
-            "ItemRequestAccepted": "Zaakceptowano prośbę o {item}",
-            "ItemRequestDenied": "Odrzucono prośbę o {item}"
+            "ItemRemoved": "Przedmiot usunięty z ekwipunku drużyny",
+            "QuantityUpdated": "Ilość {item} zaktualizowana do {quantity}",
+            "ItemSent": "{item} wysłany do {recipient}",
+            "ItemRequested": "Prośba o przedmiot wysłana do MG",
+            "ItemRequestAccepted": "Prośba zaakceptowana dla {item}",
+            "ItemRequestDenied": "Prośba odrzucona dla {item}"
         },
         "Errors": {
             "NoTokens": "Brak tokenów na scenie",
             "InvalidItem": "Nieprawidłowy przedmiot",
-            "NoPermission": "Nie masz uprawnień do wykonania tej akcji",
+            "NoPermission": "Nie masz uprawnień do tego",
             "TargetNotFound": "Nie znaleziono celu",
             "AddFailed": "Nie udało się dodać przedmiotu",
             "UpdateFailed": "Nie udało się zaktualizować przedmiotu",

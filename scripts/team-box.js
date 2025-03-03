@@ -216,24 +216,18 @@ Hooks.once('init', () => {
 });
 
 // Hook into Foundry's ready
-Hooks.once('ready', () => {
+Hooks.once('ready', async () => {
     console.log('===========================================');
     console.log(`${TeamBox.ID} | Ready hook fired`);
     console.log('===========================================');
     
-    try {
-        // Vérifier si l'inventaire existe déjà
-        const inventory = game.settings.get(TeamBox.ID, TeamBox.FLAGS.INVENTORY);
-        if (!inventory) {
-            console.log(`${TeamBox.ID} | Initializing inventory settings`);
-            game.settings.set(TeamBox.ID, TeamBox.FLAGS.INVENTORY, []);
-        }
-        
-        // Initialiser le gestionnaire de thèmes
-        TeamBoxThemeManager.init();
-        
-        console.log(`${TeamBox.ID} | Module ready`);
-    } catch (error) {
-        console.error(`${TeamBox.ID} | Error during ready hook:`, error);
+    // Initialiser le gestionnaire de thèmes
+    TeamBoxThemeManager.init();
+
+    // Initialiser les sockets si on est le MJ
+    if (game.user.isGM) {
+        TeamBoxSocket.initialize();
     }
+
+    console.log(`${TeamBox.ID} | Module ready`);
 });

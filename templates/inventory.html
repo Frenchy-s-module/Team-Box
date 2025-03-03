@@ -24,7 +24,7 @@
                 {{#each uniqueTypes as |type|}}
                 {{#if (lookup @root (concat "has" (capitalize type)))}}
                 <button class="filter-btn {{#if (eq @root.currentFilter (lowercase type))}}active{{/if}}" data-filter="{{lowercase type}}">
-                    {{localize (concat "TEAMBOX.Controls.Filters." (capitalize type))}}
+                    {{localize (concat "TEAMBOX.Controls.Filters." type)}}
                 </button>
                 {{/if}}
                 {{/each}}

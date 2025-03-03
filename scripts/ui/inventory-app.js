@@ -45,31 +45,12 @@ export class TeamBoxApp extends Application {
         // Filter items based on type
         const filteredItems = this._filterItems(inventory, currentFilter);
         
-        // Créer un objet d'icônes dynamique basé sur les types présents
-        const itemTypeIcons = {};
-        uniqueTypes.forEach(type => {
-            const lcType = type.toLowerCase();
-            // Définir une icône par défaut ou spécifique selon le type
-            if (lcType.includes('weapon')) itemTypeIcons[type] = 'sword';
-            else if (lcType.includes('armor')) itemTypeIcons[type] = 'shield-alt';
-            else if (lcType.includes('equipment')) itemTypeIcons[type] = 'toolbox';
-            else if (lcType.includes('consumable')) itemTypeIcons[type] = 'flask';
-            else if (lcType.includes('tool')) itemTypeIcons[type] = 'tools';
-            else if (lcType.includes('spell')) itemTypeIcons[type] = 'magic';
-            else if (lcType.includes('feat')) itemTypeIcons[type] = 'star';
-            else if (lcType.includes('currency')) itemTypeIcons[type] = 'coins';
-            else if (lcType.includes('container')) itemTypeIcons[type] = 'box';
-            else if (lcType.includes('loot')) itemTypeIcons[type] = 'gem';
-            else itemTypeIcons[type] = 'circle'; // Icône par défaut
-        });
-
         return {
             inventory: filteredItems,
             isGM,
-            itemTypeIcons,
-            uniqueTypes, // Ajouter les types uniques pour le template
+            uniqueTypes,
             currentFilter,
-            ...hasTypes // Spread tous les "hasTypes" dans l'objet retourné
+            ...hasTypes
         };
     }
 

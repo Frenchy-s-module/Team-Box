@@ -1,6 +1,6 @@
 {
     "TEAMBOX": {
-        "Title": "Team Box",
+        "Title": "Inventario di Squadra",
         "Inventory": {
             "Title": "Inventario di Squadra",
             "Empty": "Nessun oggetto nell'inventario"
@@ -8,7 +8,7 @@
         "Settings": {
             "Theme": {
                 "Name": "Tema",
-                "Hint": "Scegli il tema visuale per l'inventario di squadra"
+                "Hint": "Seleziona il tema visuale per l'inventario"
             }
         },
         "Controls": {
@@ -19,19 +19,36 @@
             },
             "Edit": "Modifica",
             "Delete": "Elimina",
+            "DeleteAll": "Elimina Tutto",
             "Give": "Dai",
             "Take": "Prendi",
-            "Filter": {
-                "All": "Tutti",
-                "Weapons": "Armi",
-                "Armor": "Armatura",
-                "Equipment": "Equipaggiamento",
-                "Consumables": "Consumabili",
-                "Tools": "Strumenti"
-            }
+            "Filters": {
+                "All": "Tutto",
+                "weapon": "Armi",
+                "armor": "Armatura",
+                "item": "Oggetti",
+                "equipment": "Equipaggiamento",
+                "consumables": "Consumabili",
+                "tools": "Strumenti",
+                "spells": "Incantesimi",
+                "features": "Caratteristiche",
+                "spacecraftmods": "Modifiche Astronave",
+                "vehicleweapons": "Armi Veicolo",
+                "spacecraftweapons": "Armi Astronave",
+                "currency": "Valuta",
+                "containers": "Contenitori",
+                "loot": "Bottino",
+                "cybernetics": "Cibernetica",
+                "modifications": "Modifiche",
+                "drugs": "Medicinali",
+                "magic": "Oggetti Magici",
+                "tech": "Tecnologia"
+            },
+            "Confirm": "Conferma",
+            "Cancel": "Annulla"
         },
         "DropZone": {
-            "Text": "Trascina qui gli oggetti"
+            "Text": "Trascina gli oggetti qui"
         },
         "Dialogs": {
             "Edit": {
@@ -46,27 +63,47 @@
                 "Confirm": "Elimina",
                 "Cancel": "Annulla"
             },
+            "DeleteAll": {
+                "Title": "Elimina Tutto l'Inventario",
+                "Content": "Sei sicuro di voler eliminare tutti gli oggetti dall'inventario di squadra? Questa azione non può essere annullata."
+            },
             "Give": {
                 "Title": "Dai Oggetto",
-                "SelectPlayer": "Seleziona Giocatore"
+                "SelectPlayer": "Seleziona Giocatore",
+                "Token": "Token",
+                "Quantity": "Quantità"
+            },
+            "TakeRequest": {
+                "Title": "Richiesta di Prendere Oggetto",
+                "Content": "{player} richiede di prendere {item}",
+                "Confirm": "Permetti",
+                "Cancel": "Nega"
             }
         },
         "Notifications": {
             "ItemAdded": "Oggetto aggiunto all'inventario",
-            "ItemRemoved": "Oggetto rimosso dall'inventario di squadra",
             "ItemUpdated": "Oggetto aggiornato",
-            "ItemTaken": "Hai preso 1 {name}",
             "ItemDeleted": "Oggetto eliminato",
+            "AllItemsDeleted": "Tutti gli oggetti sono stati eliminati dall'inventario di squadra",
             "ItemGiven": "Oggetto dato a {target}",
-            "ItemReceived": "Ricevuto {item} da {source}"
+            "ItemReceived": "Ricevuto {item} da {source}",
+            "ItemTaken": "Hai preso 1 {name}",
+            "ItemRemoved": "Oggetto rimosso dall'inventario di squadra",
+            "QuantityUpdated": "Quantità di {item} aggiornata a {quantity}",
+            "ItemSent": "{item} inviato a {recipient}",
+            "ItemRequested": "Richiesta oggetto inviata al GM",
+            "ItemRequestAccepted": "Richiesta accettata per {item}",
+            "ItemRequestDenied": "Richiesta negata per {item}"
         },
         "Errors": {
+            "NoTokens": "Nessun token sulla scena",
             "InvalidItem": "Oggetto non valido",
             "NoPermission": "Non hai il permesso di farlo",
             "TargetNotFound": "Obiettivo non trovato",
-            "AddFailed": "Aggiunta fallita",
-            "UpdateFailed": "Aggiornamento fallito",
-            "DeleteFailed": "Eliminazione fallita"
+            "AddFailed": "Impossibile aggiungere l'oggetto",
+            "UpdateFailed": "Impossibile aggiornare l'oggetto",
+            "DeleteFailed": "Impossibile eliminare l'oggetto",
+            "InvalidQuantity": "Quantità non valida"
         }
     }
 }
