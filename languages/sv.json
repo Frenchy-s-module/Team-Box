@@ -1,0 +1,109 @@
+{
+    "TEAMBOX": {
+        "Title": "Laginventering",
+        "Inventory": {
+            "Title": "Laginventering",
+            "Empty": "Inga föremål i inventeringen"
+        },
+        "Settings": {
+            "Theme": {
+                "Name": "Tema",
+                "Hint": "Välj visuellt tema för inventeringen"
+            }
+        },
+        "Controls": {
+            "Sort": {
+                "Name": "Sortera efter namn",
+                "Type": "Sortera efter typ",
+                "Quantity": "Sortera efter antal"
+            },
+            "Edit": "Redigera",
+            "Delete": "Radera",
+            "DeleteAll": "Radera allt",
+            "Give": "Ge",
+            "Take": "Ta",
+            "Filters": {
+                "All": "Alla",
+                "weapon": "Vapen",
+                "armor": "Rustning",
+                "item": "Föremål",
+                "equipment": "Utrustning",
+                "consumables": "Förbrukningsvaror",
+                "tools": "Verktyg",
+                "spells": "Trollformler",
+                "features": "Egenskaper",
+                "spacecraftmods": "Rymdfarkostmodifikationer",
+                "vehicleweapons": "Fordonsvapen",
+                "spacecraftweapons": "Rymdfarkostsvapen",
+                "currency": "Valuta",
+                "containers": "Behållare",
+                "loot": "Byte",
+                "cybernetics": "Cybernetik",
+                "modifications": "Modifieringar",
+                "drugs": "Läkemedel",
+                "magic": "Magiska Föremål",
+                "tech": "Teknologi"
+            },
+            "Confirm": "Bekräfta",
+            "Cancel": "Avbryt"
+        },
+        "DropZone": {
+            "Text": "Släpp föremål här"
+        },
+        "Dialogs": {
+            "Edit": {
+                "Title": "Redigera Föremål",
+                "Quantity": "Antal",
+                "Confirm": "Uppdatera",
+                "Cancel": "Avbryt"
+            },
+            "Delete": {
+                "Title": "Radera Föremål",
+                "Content": "Är du säker på att du vill radera detta föremål?",
+                "Confirm": "Radera",
+                "Cancel": "Avbryt"
+            },
+            "DeleteAll": {
+                "Title": "Radera Hela Inventeringen",
+                "Content": "Är du säker på att du vill radera alla föremål från laginventeringen? Denna åtgärd kan inte ångras."
+            },
+            "Give": {
+                "Title": "Ge Föremål",
+                "SelectPlayer": "Välj Spelare",
+                "Token": "Token",
+                "Quantity": "Antal"
+            },
+            "TakeRequest": {
+                "Title": "Begäran om att Ta Föremål",
+                "Content": "{player} begär att ta {item}",
+                "Confirm": "Tillåt",
+                "Cancel": "Neka"
+            }
+        },
+        "Notifications": {
+            "ItemAdded": "Föremål tillagt i inventeringen",
+            "ItemUpdated": "Föremål uppdaterat",
+            "ItemDeleted": "Föremål raderat",
+            "AllItemsDeleted": "Alla föremål har raderats från laginventeringen",
+            "ItemGiven": "Föremål givet till {target}",
+            "ItemReceived": "Mottog {item} från {source}",
+            "ItemTaken": "Du tog 1 {name}",
+            "ItemRemoved": "Föremål borttaget från laginventeringen",
+            "QuantityUpdated": "Antal av {item} uppdaterat till {quantity}",
+            "ItemSent": "{item} skickat till {recipient}",
+            "ItemRequested": "Föremålsbegäran skickad till GM",
+            "ItemRequestAccepted": "Begäran accepterad för {item}",
+            "ItemRequestDenied": "Begäran nekad för {item}"
+        },
+        "Errors": {
+            "NoTokens": "Inga tokens i scenen",
+            "InvalidItem": "Ogiltigt föremål",
+            "NoPermission": "Du har inte behörighet att göra detta",
+            "TargetNotFound": "Mål hittades inte",
+            "AddFailed": "Kunde inte lägga till föremål",
+            "UpdateFailed": "Kunde inte uppdatera föremål",
+            "DeleteFailed": "Kunde inte radera föremål",
+            "InvalidQuantity": "Ogiltigt antal"
+        }
+    }
+}

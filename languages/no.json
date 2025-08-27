@@ -1,0 +1,109 @@
+{
+    "TEAMBOX": {
+        "Title": "Laginventar",
+        "Inventory": {
+            "Title": "Laginventar",
+            "Empty": "Ingen gjenstander i inventaret"
+        },
+        "Settings": {
+            "Theme": {
+                "Name": "Tema",
+                "Hint": "Velg visuelt tema for inventaret"
+            }
+        },
+        "Controls": {
+            "Sort": {
+                "Name": "Sorter etter navn",
+                "Type": "Sorter etter type",
+                "Quantity": "Sorter etter antall"
+            },
+            "Edit": "Rediger",
+            "Delete": "Slett",
+            "DeleteAll": "Slett alt",
+            "Give": "Gi",
+            "Take": "Ta",
+            "Filters": {
+                "All": "Alle",
+                "weapon": "Våpen",
+                "armor": "Rustning",
+                "item": "Gjenstander",
+                "equipment": "Utstyr",
+                "consumables": "Forbruksvarer",
+                "tools": "Verktøy",
+                "spells": "Trylleformler",
+                "features": "Egenskaper",
+                "spacecraftmods": "Romskipmodifikasjoner",
+                "vehicleweapons": "Kjøretøyvåpen",
+                "spacecraftweapons": "Romskipvåpen",
+                "currency": "Valuta",
+                "containers": "Beholdere",
+                "loot": "Bytte",
+                "cybernetics": "Kybernetikk",
+                "modifications": "Modifikasjoner",
+                "drugs": "Medisiner",
+                "magic": "Magiske Gjenstander",
+                "tech": "Teknologi"
+            },
+            "Confirm": "Bekreft",
+            "Cancel": "Avbryt"
+        },
+        "DropZone": {
+            "Text": "Slipp gjenstander her"
+        },
+        "Dialogs": {
+            "Edit": {
+                "Title": "Rediger Gjenstand",
+                "Quantity": "Antall",
+                "Confirm": "Oppdater",
+                "Cancel": "Avbryt"
+            },
+            "Delete": {
+                "Title": "Slett Gjenstand",
+                "Content": "Er du sikker på at du vil slette denne gjenstanden?",
+                "Confirm": "Slett",
+                "Cancel": "Avbryt"
+            },
+            "DeleteAll": {
+                "Title": "Slett Hele Inventaret",
+                "Content": "Er du sikker på at du vil slette alle gjenstander fra laginventaret? Denne handlingen kan ikke angres."
+            },
+            "Give": {
+                "Title": "Gi Gjenstand",
+                "SelectPlayer": "Velg Spiller",
+                "Token": "Token",
+                "Quantity": "Antall"
+            },
+            "TakeRequest": {
+                "Title": "Forespørsel om å Ta Gjenstand",
+                "Content": "{player} ber om å ta {item}",
+                "Confirm": "Tillat",
+                "Cancel": "Avslå"
+            }
+        },
+        "Notifications": {
+            "ItemAdded": "Gjenstand lagt til i inventaret",
+            "ItemUpdated": "Gjenstand oppdatert",
+            "ItemDeleted": "Gjenstand slettet",
+            "AllItemsDeleted": "Alle gjenstander har blitt slettet fra laginventaret",
+            "ItemGiven": "Gjenstand gitt til {target}",
+            "ItemReceived": "Mottatt {item} fra {source}",
+            "ItemTaken": "Du tok 1 {name}",
+            "ItemRemoved": "Gjenstand fjernet fra laginventaret",
+            "QuantityUpdated": "Antall av {item} oppdatert til {quantity}",
+            "ItemSent": "{item} sendt til {recipient}",
+            "ItemRequested": "Gjenstandsforespørsel sendt til GM",
+            "ItemRequestAccepted": "Forespørsel godkjent for {item}",
+            "ItemRequestDenied": "Forespørsel avslått for {item}"
+        },
+        "Errors": {
+            "NoTokens": "Ingen tokens i scenen",
+            "InvalidItem": "Ugyldig gjenstand",
+            "NoPermission": "Du har ikke tillatelse til dette",
+            "TargetNotFound": "Mål ikke funnet",
+            "AddFailed": "Kunne ikke legge til gjenstand",
+            "UpdateFailed": "Kunne ikke oppdatere gjenstand",
+            "DeleteFailed": "Kunne ikke slette gjenstand",
+            "InvalidQuantity": "Ugyldig antall"
+        }
+    }
+}

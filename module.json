@@ -1,0 +1,92 @@
+{
+  "id": "team-box",
+  "title": "Team-Box",
+  "description": "A collaborative inventory management system for your team with real-time synchronization",
+  "version": "1.1.0",
+  "authors": [
+    {
+      "name": "Shaz for Frenchy's Module"
+      
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "esmodules": [
+    "scripts/team-box.js",
+    "scripts/socket.js",
+    "scripts/themes/theme-manager.js",
+    "scripts/ui/inventory-app.js"
+  ],
+  "styles": [
+    "styles/team-box.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "languages/fr.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "languages/de.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "languages/es.json"
+    },
+    {
+      "lang": "it",
+      "name": "Italiano",
+      "path": "languages/it.json"
+    },
+    {
+      "lang": "no",
+      "name": "Norsk",
+      "path": "languages/no.json"
+    },
+    {
+      "lang": "da",
+      "name": "Dansk",
+      "path": "languages/da.json"
+    },
+    {
+      "lang": "sv",
+      "name": "Svenska",
+      "path": "languages/sv.json"
+    },
+    {
+      "lang": "pt",
+      "name": "Português",
+      "path": "languages/pt.json"
+    },
+    {
+      "lang": "ja",
+      "name": "日本語",
+      "path": "languages/ja.json"
+    },
+    {
+      "lang": "zh",
+      "name": "中文",
+      "path": "languages/zh.json"
+    },
+    {
+      "lang": "pl",
+      "name": "Polski",
+      "path": "languages/pl.json"
+    }
+  ],
+  "socket": true,
+  "url": "https://github.com/Frenchy-s-module/Team-Box",
+  "manifest": "https://github.com/Frenchy-s-module/Team-Box/releases/download/V1.1.0/module.json",
+  "download": "https://github.com/Frenchy-s-module/Team-Box/releases/download/V1.1.0/team-box.zip"
+}

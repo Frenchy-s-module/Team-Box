@@ -1,0 +1,109 @@
+{
+    "TEAMBOX": {
+        "Title": "Ekwipunek Drużyny",
+        "Inventory": {
+            "Title": "Ekwipunek Drużyny",
+            "Empty": "Brak przedmiotów w ekwipunku"
+        },
+        "Settings": {
+            "Theme": {
+                "Name": "Motyw",
+                "Hint": "Wybierz motyw wizualny dla ekwipunku"
+            }
+        },
+        "Controls": {
+            "Sort": {
+                "Name": "Sortuj według nazwy",
+                "Type": "Sortuj według typu",
+                "Quantity": "Sortuj według ilości"
+            },
+            "Edit": "Edytuj",
+            "Delete": "Usuń",
+            "DeleteAll": "Usuń wszystko",
+            "Give": "Przekaż",
+            "Take": "Weź",
+            "Filters": {
+                "All": "Wszystko",
+                "weapon": "Broń",
+                "armor": "Pancerz",
+                "item": "Przedmioty",
+                "equipment": "Wyposażenie",
+                "consumables": "Przedmioty jednorazowe",
+                "tools": "Narzędzia",
+                "spells": "Zaklęcia",
+                "features": "Cechy",
+                "spacecraftmods": "Modyfikacje statku",
+                "vehicleweapons": "Broń pojazdów",
+                "spacecraftweapons": "Broń statków",
+                "currency": "Waluta",
+                "containers": "Pojemniki",
+                "loot": "Łupy",
+                "cybernetics": "Cybernetyka",
+                "modifications": "Modyfikacje",
+                "drugs": "Leki",
+                "magic": "Przedmioty magiczne",
+                "tech": "Technologia"
+            },
+            "Confirm": "Potwierdź",
+            "Cancel": "Anuluj"
+        },
+        "DropZone": {
+            "Text": "Upuść przedmioty tutaj"
+        },
+        "Dialogs": {
+            "Edit": {
+                "Title": "Edytuj Przedmiot",
+                "Quantity": "Ilość",
+                "Confirm": "Aktualizuj",
+                "Cancel": "Anuluj"
+            },
+            "Delete": {
+                "Title": "Usuń Przedmiot",
+                "Content": "Czy na pewno chcesz usunąć ten przedmiot?",
+                "Confirm": "Usuń",
+                "Cancel": "Anuluj"
+            },
+            "DeleteAll": {
+                "Title": "Usuń Cały Ekwipunek",
+                "Content": "Czy na pewno chcesz usunąć wszystkie przedmioty z ekwipunku drużyny? Tej akcji nie można cofnąć."
+            },
+            "Give": {
+                "Title": "Przekaż Przedmiot",
+                "SelectPlayer": "Wybierz Gracza",
+                "Token": "Token",
+                "Quantity": "Ilość"
+            },
+            "TakeRequest": {
+                "Title": "Prośba o Wzięcie Przedmiotu",
+                "Content": "{player} prosi o wzięcie {item}",
+                "Confirm": "Zezwól",
+                "Cancel": "Odmów"
+            }
+        },
+        "Notifications": {
+            "ItemAdded": "Przedmiot dodany do ekwipunku",
+            "ItemUpdated": "Przedmiot zaktualizowany",
+            "ItemDeleted": "Przedmiot usunięty",
+            "AllItemsDeleted": "Wszystkie przedmioty zostały usunięte z ekwipunku drużyny",
+            "ItemGiven": "Przedmiot przekazany do {target}",
+            "ItemReceived": "Otrzymano {item} od {source}",
+            "ItemTaken": "Wziąłeś 1 {name}",
+            "ItemRemoved": "Przedmiot usunięty z ekwipunku drużyny",
+            "QuantityUpdated": "Ilość {item} zaktualizowana do {quantity}",
+            "ItemSent": "{item} wysłany do {recipient}",
+            "ItemRequested": "Prośba o przedmiot wysłana do MG",
+            "ItemRequestAccepted": "Prośba zaakceptowana dla {item}",
+            "ItemRequestDenied": "Prośba odrzucona dla {item}"
+        },
+        "Errors": {
+            "NoTokens": "Brak tokenów na scenie",
+            "InvalidItem": "Nieprawidłowy przedmiot",
+            "NoPermission": "Nie masz uprawnień do tego",
+            "TargetNotFound": "Nie znaleziono celu",
+            "AddFailed": "Nie udało się dodać przedmiotu",
+            "UpdateFailed": "Nie udało się zaktualizować przedmiotu",
+            "DeleteFailed": "Nie udało się usunąć przedmiotu",
+            "InvalidQuantity": "Nieprawidłowa ilość"
+        }
+    }
+}
